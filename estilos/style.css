@@ -54,3 +54,39 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
 }
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+div.campo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div.campo >label {
+    margin-left: 5px ;
+}
+
+div.campo > span {
+    margin-right: 3px;
+}
+
+input#entrar {
+    display: flex;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+a#esqueci {
+    margin-left: 40px;
+    font-size: small;    
+}
